@@ -5,7 +5,14 @@
   <title>Basketball Team Signup</title>
  </head>
  <body>
+   <h2><p>Team name <input type="text" name="name"></h2></p>
+   <p>Coach <input type="text" name="coach"></p>
+   <p>Point Guard <input type="text" name="pg"></p>
+   <p>Shooting Guard <input type="text" name="sg"></p>
+   <p>Power Forward <input type="text" name="pf"></p>
+   <p>Small Forward <input type="text" name="sf"></p>
+   <p>Center <input type="text" name="c"> </p>
+   <%= button_to "submit", { :action => "submit" }, :method => :get %>
+ </form>
  </body>
 </html>
-
-
